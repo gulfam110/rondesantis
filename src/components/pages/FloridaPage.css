@@ -1,0 +1,108 @@
+.container-of-image-and-section
+{
+    position: relative;
+    
+    
+}
+
+.container-of-image-and-section
+{
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/components/assets/background.jpg");
+    background-position: center left;
+    background-size: cover;
+    transition: background  0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+
+
+.florida-container
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.florida-main-container
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.ron-logo-container
+{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.image-logo-cont
+{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.bottom-container
+{
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+.keep-florida
+{
+    
+    float: left;
+}
+.keep-florida-free
+{
+    font-family: "Gin";
+    width: 100%;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: red;
+    
+}
+.text-freedom
+{
+    text-align: left;
+    background-image: url("/src/components/assets/group112.jpg");
+    background-attachment: fixed;
+    animation: mymovee1 180s linear infinite;
+    -webkit-text-fill-color:transparent;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-size: 100%;
+    color: var( --e-global-color-secondary );
+    font-family: "gotham", Sans-serif;
+    font-size: 92px;
+    font-weight: 600;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.text-freedom-div
+{
+    width: 100%;
+    height: 100%;
+}
+.left-container
+{
+    width: 50%;
+    height: 100%;
+}
+.right-container
+{
+    width: 50%;
+    height: 100%;
+}
+.right-image
+{
+    float: right;
+}

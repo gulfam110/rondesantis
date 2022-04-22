@@ -1,0 +1,145 @@
+.div-header
+{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2776AE;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 18px 0px 10px 0px;
+    z-index: 20;
+}
+
+.header-container
+{
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.column
+{
+    display: flex;
+    position: relative;
+    min-height: 1px;
+}
+
+@media (min-width : 768px){
+    .column
+    {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 768px)
+{
+    column.col-33
+    {
+        width: 33.333%;
+    }
+}
+
+.widget-wrap{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.widget-heading
+{
+    position: relative;
+    
+}
+.widget-container
+{
+    
+    align-items: center;
+
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+
+}
+.heading-title
+{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
+.width-setup
+{
+    width: 70%;
+}
+
+.tell-story
+{
+    color: white;
+    font-family: "Gin", Sans-serif;
+    font-size: 25px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.right-div
+{
+    margin-bottom: 15px;
+    float: right;
+    align-items: flex-end;
+    display: flex;
+    
+}
+.image
+{
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+.order-now
+{
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    height: 100%;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-family: "Gin", Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.order-now:hover
+{
+    background-color: #216595;
+    transition: all 0.3s ease-out;
+}
+
+.main
+{
+    display: flex;
+    width: 100%;
+}
+.contain
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.left-div
+{
+    float: left;
+}
