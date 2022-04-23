@@ -36,7 +36,7 @@ export default function DesktopHeader() {
                                     ABOUT
                                     <ArrowDown size={18}/>
                                     {about &&
-                                    <ul className="absolute bg-rd-red text-white overflow-visible"
+                                    <ul className="absolute top-12 bg-rd-red text-white overflow-visible"
                                         style={{zIndex: 3000, minWidth: '250px'}}>
                                         <li className="hover:bg-rd-navy-blue transform duration-300">
                                             <div className="border-b-2 border-white py-2">
