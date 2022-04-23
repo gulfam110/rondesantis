@@ -15,7 +15,7 @@ const Header = () => {
                     <div className='right-div'>
                         <div>
                     <a href="https://open.spotify.com/album/4p01Gc10JfNURoCXVnr3wH">
-							<img src="https://rondesantis.com/wp-content/uploads/2021/10/Florida-Story-1.png" class="image" alt=""  />							
+							<img src="https://rondesantis.com/wp-content/uploads/2021/10/Florida-Story-1.png" class="image" alt=""  />
                             	</a>
                                 </div>
                                 <div>
@@ -28,7 +28,7 @@ const Header = () => {
                 </div>
             </section>
 
-        
+
         </div>
     )
 }
